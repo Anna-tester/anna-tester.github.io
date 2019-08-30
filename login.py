@@ -9,7 +9,7 @@ print ("Step 1 was passed")
 driver.get("https://vk.com/")
 print ("Step 2 was passed")
 user_name = "futi@mail.ru"
-password = "Ludokk40"
+password = "Ludokk.40"
 
 email = driver.find_element_by_id("index_email")
 email.send_keys(user_name)
